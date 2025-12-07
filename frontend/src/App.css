@@ -1,0 +1,11 @@
+.app {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px 0;
+    overflow-y: auto; /* Adiciona barra de rolagem vertical se o conteúdo exceder a altura */
+}

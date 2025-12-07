@@ -1,0 +1,105 @@
+ReviewCard.css
+.review-card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 15px;
+    transition: box-shadow 0.2s;
+}
+
+.review-card:hover {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+.review-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.review-rating {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.stars {
+    color: #ffc107;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+}
+
+.rating-number {
+    color: #666;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.review-date {
+    color: #999;
+    font-size: 0.85rem;
+}
+
+.review-author {
+    margin-bottom: 10px;
+    color: #555;
+    font-size: 0.9rem;
+}
+
+.review-author strong {
+    color: #333;
+}
+
+.review-comment {
+    color: #333;
+    line-height: 1.6;
+    margin: 12px 0;
+    font-size: 0.95rem;
+}
+
+.review-actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+    padding-top: 12px;
+    border-top: 1px solid #eee;
+}
+
+.btn-sm {
+    padding: 6px 12px;
+    font-size: 0.85rem;
+}
+
+[data-theme="dark"] .review-card {
+    background: var(--card-bg);
+    color: var(--text);
+}
+
+[data-theme="dark"] .review-header {
+    border-bottom-color: #333;
+}
+
+[data-theme="dark"] .review-author {
+    color: #aaa;
+}
+
+[data-theme="dark"] .review-author strong {
+    color: var(--text);
+}
+
+[data-theme="dark"] .review-comment {
+    color: var(--text);
+}
+
+[data-theme="dark"] .review-actions {
+    border-top-color: #333;
+}
+
+
+ao vivo
+
+Saltar para ao vivo

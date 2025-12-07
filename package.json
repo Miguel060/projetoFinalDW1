@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "multer": "^2.0.2",
+    "mutter": "^1.0.1"
+  }
+}

@@ -1,0 +1,112 @@
+.livro-card {
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.livro-card-cover {
+    width: 100%;
+    max-width: 150px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.livro-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.livro-card h3 {
+    margin: 0 0 15px 0;
+    color: #333;
+    font-size: 20px;
+}
+
+.livro-card p {
+    margin: 8px 0;
+    color: #666;
+    font-size: 14px;
+}
+
+.card-actions {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.card-actions {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap; /* Permite que os botões quebrem a linha */
+    gap: 10px;
+}
+
+.card-actions .btn {
+    flex: 1;
+    font-size: 13px;
+    padding: 8px 12px;
+}
+
+.btn-favorite {
+    padding: 8px 12px;
+    border: 1px solid #007bff; /* Cor primária */
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.2s ease-in-out;
+    background-color: white;
+    color: #007bff;
+    flex: 1;
+}
+
+.btn-favorite:hover {
+    background-color: #e6f2ff; /* Cor primária mais clara */
+}
+
+.btn-favorite.favorited {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+}
+
+.btn-favorite.favorited:hover {
+    background-color: #0056b3;
+}
+
+.btn-favorite:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.reviews-section {
+    width: 100%;
+    margin-top: 20px;
+    padding-top: 15px;
+    border-top: 1px solid #eee;
+}
+
+.reviews-section h4 {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.reviews-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.btn-sm {
+    padding: 5px 10px;
+    font-size: 12px;
+}

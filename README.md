@@ -67,17 +67,8 @@ livraria/
 └─ README.md
 ```
 
-## Tecnologias
-
-* **Frontend:** React, Tailwind CSS (ou a que você estiver usando)
-* **Backend:** Node.js, Express (ou sua stack atual)
-* **Banco de dados:** (adicione aqui se houver, ex: MongoDB, MySQL)
-
 ## Observações
 
 * Certifique-se de que o backend esteja rodando antes de iniciar o frontend.
 * Para personalizar capas e favoritos, você precisa estar logado (caso o sistema tenha autenticação).
 
----
-
-Se você quiser, posso criar uma **versão ainda mais estilizada e chamativa**, com badges de npm, links para issues, e screenshots do projeto, que deixa o README com cara profissional de portfólio. Quer que eu faça?
